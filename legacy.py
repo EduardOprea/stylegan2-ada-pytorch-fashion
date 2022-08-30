@@ -11,9 +11,9 @@ import pickle
 import re
 import copy
 import numpy as np
-from .import dnnlib
+import dnnlib
 import torch
-from .torch_utils import misc
+from torch_utils import misc
 
 #----------------------------------------------------------------------------
 
