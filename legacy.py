@@ -11,9 +11,13 @@ import pickle
 import re
 import copy
 import numpy as np
+import sys
+# sys.path.append('E:\Fisierele mele\Facultate\Cercetare\Code\StyleCLIP\models\stylegan2adapytorch')
+# test = sys.path
+from models.stylegan2adapytorch import dnnlib
+# import dnnlib
 import torch
-import dnnlib
-from torch_utils import misc
+from models.stylegan2adapytorch.torch_utils import misc
 
 #----------------------------------------------------------------------------
 
